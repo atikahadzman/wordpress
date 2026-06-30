@@ -91,6 +91,11 @@ define( 'WP_DEBUG', false );
 
 
 
+/** Implement this line to avoid FTP request */
+define('FS_METHOD', 'direct');
+@ini_set('upload_max_filesize', '64M');
+@ini_set('post_max_size', '64M');
+@ini_set('max_execution_time', '300');
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

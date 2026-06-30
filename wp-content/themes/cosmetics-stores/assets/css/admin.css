@@ -1,0 +1,21 @@
+.blog-heading,.service-text-main{
+  text-align: center;
+}
+.service-text-main h4,.blog-heading h6{
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px !important;
+}
+.service-text-main h4:after ,.blog-heading h6:after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 0px;
+  width: 50%;
+  right: 0px;
+  height: 4px;
+  background-color: #BEE041;
+  z-index: 0;
+  border-radius: 3px;
+  margin: 0 auto;
+}

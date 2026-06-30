@@ -1,0 +1,185 @@
+{
+  "apiVersion": 2,
+  "name": "smb/sticky",
+  "title": "Sticky Content",
+  "description": "Stick element to top when reached at top.",
+  "category": "widgets",
+  "keywords": [
+    "sticky content",
+    "sticky menu",
+    "sticky element"
+  ],
+  "textdomain": "sticky-menu-block",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "topPosition": {
+      "type": "number",
+      "default": 0
+    },
+    "minScreenWidth": {
+      "type": "number",
+      "default": 0
+    },
+    "maxScreenWidth": {
+      "type": "number",
+      "default": 99999
+    },
+    "background": {
+      "type": "object",
+      "default": {
+        "color": "#333"
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "vertical": "10px",
+        "horizontal": "20px"
+      }
+    },
+    "stickyContent": {
+      "type": "object",
+      "default": {
+        "stickyWidth": "100%",
+        "alignment": "center",
+        "stickyMode": "default",
+        "stickyBackground": {
+          "color": ""
+        },
+        "margin": {
+          "top": "0px",
+          "left": "0px",
+          "right": "0px",
+          "bottom": "0px"
+        },
+        "border": {
+          "color": "",
+          "style": "",
+          "width": ""
+        },
+        "stickyBorder": {
+          "color": "",
+          "style": "",
+          "width": ""
+        },
+        "radius": {
+          "top": "0px",
+          "left": "0px",
+          "right": "0px",
+          "bottom": "0px"
+        },
+        "stickyRadius": {
+          "top": "0px",
+          "left": "0px",
+          "right": "0px",
+          "bottom": "0px"
+        },
+        "shadow": [],
+        "stickyShadow": [],
+        "stickyModesSection": "whileInView",
+        "zindex": 999,
+        "stickyWithinContainer": false,
+        "stickySectionSelector": "",
+        "stickyPosition": {
+          "vertical": "0%",
+          "horizontal": "50%"
+        },
+        "stickyAnimationName": "none",
+        "stickyAnimationDuration": 0.5,
+        "stickyAnimationStyles": {
+          "none": {
+            "transform": {
+              "stickyTransform": "0px",
+              "normalTransform": "0px"
+            },
+            "opacity": {
+              "stickyOpacity": 1,
+              "normalOpacity": 1
+            }
+          },
+          "fade": {
+            "transform": {
+              "stickyTransform": "0px",
+              "normalTransform": "0px"
+            },
+            "opacity": {
+              "stickyOpacity": 1,
+              "normalOpacity": 0
+            }
+          },
+          "slide": {
+            "transform": {
+              "stickyTransform": "0px",
+              "normalTransform": "-100%"
+            },
+            "opacity": {
+              "stickyOpacity": 1,
+              "normalOpacity": 0
+            }
+          },
+          "scale": {
+            "transform": {
+              "stickyTransform": 1,
+              "normalTransform": 0.8
+            },
+            "opacity": {
+              "stickyOpacity": 1,
+              "normalOpacity": 0
+            }
+          },
+          "zoom": {
+            "transform": {
+              "stickyTransform": 1,
+              "normalTransform": 0.5
+            },
+            "opacity": {
+              "stickyOpacity": 1,
+              "normalOpacity": 0
+            }
+          }
+        },
+        "stickyPositionOffset": "0px",
+        "stickyEasingFunction": "ease-in-out",
+        "stickyAnimationDelay": 0,
+        "stickyTigerOnScroll": 0,
+        "hideOnScrollUp": false,
+        "isShrink": false,
+        "stickyContentWidth": "650px",
+        "showCloseIcon": false,
+        "closeIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' id='x-lg'><path d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z'/></svg>",
+        "closeIconSize": 25,
+        "closeIconColor": "#ffffff",
+        "closeIconPosition": {
+          "vertical": "10%",
+          "horizontal": "98%"
+        }
+      }
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "editorScript": [
+    "file:./index.js",
+    "wp-api"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": [
+    "file:./view.js",
+    "stickyAnything"
+  ]
+}

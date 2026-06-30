@@ -1,0 +1,380 @@
+.updated.notice.notice-success.is-dismissible.notice-get-started-class.admin-notice{
+    padding: 5px 20px;
+    background: linear-gradient(90deg, rgba(68, 40, 157, 1) 0%, rgba(106, 58, 168, 1) 100%);
+}
+.admin-notice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img.notice_img {
+    height: 160px;
+    object-fit: cover;
+}
+.notice-dismiss::before {
+    display: block;
+    color: #fff;
+}
+a.getting-started-notice-dismiss {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: top;
+    display: none;
+}
+.getting-started-notice-dismiss:hover,
+.getting-started-notice-dismiss:focus,
+.getting-started-notice-dismiss:active {
+    color: #bababa;
+}
+.getting-started-notice-dismiss:before {
+    display: inline-block;
+    line-height: 1;
+}
+.admin-notice-content strong {
+    font-size: 26px;
+    color: #fff;
+}
+.wp-core-ui p .button {
+    display: inline-table;
+    vertical-align: middle;
+}
+.button-primary.button-hero:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+p.plugin-notice {
+    font-size: 14px;
+    color: #fff !important;
+}
+.titan-buttons a.titan-install-plugins.button.button-primary, .titan-buttons a.button.button-secondary,a.button.button-bundle {
+    font-size: 14px;
+    padding: 5px 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.titan-buttons a.titan-install-plugins.button.button-primary{
+    background: #2b94a5;
+    border-color: #2b94a5;
+}
+.titan-buttons a.titan-install-plugins.button.button-primary:hover{
+    background: #f74883;
+    border-color: #f74883;
+}
+.titan-buttons a.button.button-bundle{
+    background: #FFFF00;
+    border-color: #FFFF00;
+    color: #000;
+}
+.titan-buttons a.button.button-bundle:hover{
+    background: #00b8ff;
+    border-color: #00b8ff;
+    color: #fff;
+}
+.titan-buttons a.button.button-secondary {
+    color: #fff;
+    background: #f74883;
+    border-color: #f74883;
+    font-weight: 500;
+}
+.titan-buttons a.button.button-secondary:hover{
+    background: #2b94a5;
+    border-color: #2b94a5;
+}
+.titan-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.cosmetics-stores-themeinfo-page--wrapper {
+    background: #fff;
+    padding: 50px;
+    margin: 20px 20px;
+}
+a.cosmetics-stores-button.button-primary {
+    background: #f74883;
+    padding: 2px 10px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    border-radius: 0;
+}
+a.cosmetics-stores-button.button-primary-1  {
+    background: #f74883;
+    padding: 13px 25px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+}
+a.cosmetics-stores-button.button-primary:hover{
+    background: #6b3ba9;
+}
+.cosmetics-stores-features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px -15px 0;
+}
+.cosmetics-stores-features > div {
+    flex: 0 0 40%;
+    padding: 10px 10px 45px 20px;
+    background: #f7f7f7;
+    margin: 0 12px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.cosmetics-stores-features-box i {
+    background: #fff;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 33px;
+    border: 1px solid #ebe2e2;
+    box-shadow: 0 0 10px #c8c2c2;
+}
+.cosmetics-stores-themeinfo-page--wrapper p {
+    font-size: 16px;
+}
+p.customization-notice {
+    background: #eee;
+    padding: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 6px;
+}
+.cosmetics-stores-header-left h2 {
+    font-size: 30px;
+}
+a.cosmetics-stores-button.button-secondary-1 {
+    position: absolute;
+    background: #6b3ba9;
+    bottom: 14px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+a.cosmetics-stores-button.button-secondary-1:hover,a.cosmetics-stores-button.button-primary-1.buy-now:hover{
+    background: #f74883; 
+}
+a.cosmetics-stores-button.button-primary-1.buy-now,a.cosmetics-stores-button.button-primary-1.pro-demo:hover,a.cosmetics-stores-button.button-primary-1.bundle:hover{
+    background:#6b3ba9; 
+}
+.free\&pro {
+    display: flex;
+    flex-wrap: wrap;
+}
+#cosmetics-stores-admin-about-page-1,#cosmetics-stores-admin-about-page-2{
+    width: 50%;
+}
+.cosmetics-stores-header-left-pro h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.cosmetics-stores-header-left p {
+    margin-right: 60px;
+}
+.cosmetics-stores-header-right-2 {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 6%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.cosmetics-stores-pro-button.bundle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg,rgba(68, 40, 157, 1) 0%, rgba(106, 58, 168, 1) 100%);
+    padding: 17px;
+    border-radius: 12px;
+}
+img.img_bundle {
+    height: 200px;
+    object-fit: cover;
+}
+h3.bundle-head {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.bundle-content {
+    width: 60%;
+}
+p.bundle-para {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom:30px;
+}
+a.cosmetics-stores-button.bundle {
+    text-decoration: none;
+    background: #FFFF00;
+    border: 2px solid #FFFF00;
+    color: #000;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+a.cosmetics-stores-button.bundle:hover{
+    background: #f74883;
+    border: 2px solid #f74883;
+    color: #fff;  
+}
+@media screen and (max-width: 1500px){
+    .bundle-content h3 {
+        line-height: 33px;
+    }
+    img.img_bundle {
+        margin-top: 20px;
+        object-fit: contain;
+    }
+    .cosmetics-stores-admin-card-header-2 {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1060px){
+    .cosmetics-stores-pro-button.bundle {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+    }
+    .bundle-content {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 991px){
+    .getting-started-notice-dismiss {
+        position: static;
+        display: block;
+        padding-bottom: 10px !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .admin-notice, .titan-buttons{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    .free\&pro{
+        display: block;
+    }
+    #cosmetics-stores-admin-about-page-1, #cosmetics-stores-admin-about-page-2{
+        width: 100%;
+    }
+    .titan-buttons{
+        display: block;
+    }
+    .admin-notice-content{
+        width: 100%;
+    }
+    .admin-notice-image{
+        width: 40%;
+    }
+    .cosmetics-stores-header-left p {
+        margin-right: 0px;
+    }
+    .cosmetics-stores-features,
+    .cosmetics-stores-pro-button.bundle {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .cosmetics-stores-themeinfo-page--wrapper {
+        padding: 20px;
+        text-align: justify;
+    }
+    .cosmetics-stores-header-left h2 {
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+    }
+    .cosmetics-stores-features h3 {
+        text-align: center;
+    }
+    .cosmetics-stores-pro-button,
+    .cosmetics-stores-features a {
+        text-align: center;
+        display: block;
+        margin: auto;
+        position: static !important;
+    }
+    .bundle-content {
+        width: 100%;
+    }
+    .titan-buttons a.titan-install-plugins.button.button-primary {
+       display: flex;
+    }
+    .titan-buttons a.titan-install-plugins.button.button-primary a {
+        min-width: 300px;
+    }
+    .titan-buttons a.titan-install-plugins.button.button-primary {
+        font-size: 0;
+        position: relative;
+        width: fit-content;
+    }
+    .titan-buttons a.titan-install-plugins.button.button-primary::after {
+        content: "Get Started";
+        font-size: 14px;
+        display: inline-block;
+    }
+    .admin-notice-image {
+        width: 100%;
+    }
+    .admin-notice-image img {
+        object-fit: contain;
+    }
+    .admin-notice {
+        justify-content: center;
+        text-align: center;
+    }
+    .titan-buttons p:nth-child(1) {
+        width: fit-content;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1339px) {
+    .cosmetics-stores-features {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+a.cosmetics-stores-button.button-primary-1 {
+    font-size: 13px;
+    padding: 13px 20px;
+}
+.admin-notice-content{
+    width: 60%;
+}
+.admin-notice-image{
+    width: 40%;
+}
+}
