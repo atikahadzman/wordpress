@@ -1,0 +1,13 @@
+[06-Jul-2026 13:17:38 UTC] PHP Warning:  Undefined array key "erase_plugin_data" in /var/www/html/wordpress/wp-content/plugins/pinterest-for-woocommerce/uninstall.php on line 21
+[06-Jul-2026 13:17:58 UTC] PHP Deprecated:  ImageOptimization\Modules\Optimization\Classes\Bulk_Optimization\Bulk_Optimization_Queue::set_bulk_token(): Implicitly marking parameter $batch_size as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/wordpress/wp-content/plugins/image-optimization/modules/optimization/classes/bulk-optimization/bulk-optimization-queue.php on line 113
+[06-Jul-2026 13:21:12 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[06-Jul-2026 17:19:03 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[06-Jul-2026 17:23:11 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[06-Jul-2026 17:28:10 UTC] PHP Warning:  Undefined property: stdClass::$id in /var/www/html/wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 769
+[06-Jul-2026 17:28:10 UTC] PHP Warning:  Undefined property: stdClass::$post_parent in /var/www/html/wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 772
+[07-Jul-2026 02:45:15 UTC] Automatic updates starting...
+[07-Jul-2026 02:45:16 UTC]   Automatic plugin updates starting...
+[07-Jul-2026 02:45:16 UTC]   Automatic plugin updates complete.
+[07-Jul-2026 02:45:17 UTC]   Automatic theme updates starting...
+[07-Jul-2026 02:45:17 UTC]   Automatic theme updates complete.
+[07-Jul-2026 02:45:17 UTC] Automatic updates complete.
