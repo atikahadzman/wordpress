@@ -36,9 +36,14 @@ define( 'DB_HOST', 'localhost' );
 
 
 ## Configure Apache Virtual Host
+Edit this file.
+
+```bash
+sudo nano /etc/apache2/sites-available/wordpress.conf 
+```
 
 <code>
-    <VirtualHost *:80>
+    <VirtualHost *:8081>
         DocumentRoot /var/www/html/wordpress
         ServerName localhost
 
@@ -53,6 +58,16 @@ define( 'DB_HOST', 'localhost' );
 sudo a2ensite wordpress.conf
 sudo a2enmod rewrite
 sudo service apache2 restart
+```
+Then, another file to set the port.
+
+```bash
+sudo nano /etc/apache2/ports.conf
+```
+
+Added this line on top
+```bash
+Listen 8081
 ```
 
 ## Access WordPress
