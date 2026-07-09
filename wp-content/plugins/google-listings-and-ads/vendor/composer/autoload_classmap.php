@@ -419,6 +419,7 @@ return array(
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsAwareInterface' => $baseDir . '/src/Options/OptionsAwareInterface.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsAwareTrait' => $baseDir . '/src/Options/OptionsAwareTrait.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsInterface' => $baseDir . '/src/Options/OptionsInterface.php',
+    'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\ServiceBasedMerchantHooks' => $baseDir . '/src/Options/ServiceBasedMerchantHooks.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\ServiceBasedMerchantState' => $baseDir . '/src/Options/ServiceBasedMerchantState.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\Transients' => $baseDir . '/src/Options/Transients.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\TransientsAwareInterface' => $baseDir . '/src/Options/TransientsAwareInterface.php',

@@ -1,0 +1,2 @@
+2026-07-09T07:11:26+00:00 WARNING Email "new_order" for order #384 failed to send: Could not instantiate mail function. CONTEXT: {"email_type":"new_order","status":"failed","recipient":"guest","order":384}
+2026-07-09T07:11:26+00:00 WARNING Email "customer_processing_order" for order #384 failed to send: Could not instantiate mail function. CONTEXT: {"email_type":"customer_processing_order","status":"failed","recipient":"guest","order":384}

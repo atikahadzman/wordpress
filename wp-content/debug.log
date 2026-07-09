@@ -11,3 +11,47 @@
 [07-Jul-2026 02:45:17 UTC]   Automatic theme updates starting...
 [07-Jul-2026 02:45:17 UTC]   Automatic theme updates complete.
 [07-Jul-2026 02:45:17 UTC] Automatic updates complete.
+[07-Jul-2026 19:29:28 UTC] Automatic updates starting...
+[07-Jul-2026 19:29:29 UTC]   Automatic plugin updates starting...
+[07-Jul-2026 19:29:29 UTC]   Automatic plugin updates complete.
+[07-Jul-2026 19:29:30 UTC]   Automatic theme updates starting...
+[07-Jul-2026 19:29:30 UTC]   Automatic theme updates complete.
+[07-Jul-2026 19:29:30 UTC] Automatic updates complete.
+[08-Jul-2026 05:30:02 UTC] Automatic updates starting...
+[08-Jul-2026 05:30:04 UTC]   Automatic plugin updates starting...
+[08-Jul-2026 05:30:04 UTC]   Automatic plugin updates complete.
+[08-Jul-2026 05:30:05 UTC]   Automatic theme updates starting...
+[08-Jul-2026 05:30:06 UTC]   Automatic theme updates complete.
+[08-Jul-2026 05:30:06 UTC] Automatic updates complete.
+[08-Jul-2026 15:47:19 UTC] Automatic updates starting...
+[08-Jul-2026 15:47:20 UTC]   Automatic plugin updates starting...
+[08-Jul-2026 15:47:20 UTC]   Automatic plugin updates complete.
+[08-Jul-2026 15:47:21 UTC]   Automatic theme updates starting...
+[08-Jul-2026 15:47:21 UTC]   Automatic theme updates complete.
+[08-Jul-2026 15:47:21 UTC] Automatic updates complete.
+[08-Jul-2026 17:08:38 UTC] PHP Deprecated:  ActionScheduler_Schedule_Deprecated::next(): Implicitly marking parameter $after as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/wordpress/wp-content/plugins/image-optimization/vendor/woocommerce/action-scheduler/deprecated/ActionScheduler_Schedule_Deprecated.php on line 16
+[08-Jul-2026 17:08:38 UTC] PHP Deprecated:  ActionScheduler_ActionFactory::get_stored_action(): Implicitly marking parameter $schedule as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/wordpress/wp-content/plugins/image-optimization/vendor/woocommerce/action-scheduler/classes/ActionScheduler_ActionFactory.php on line 21
+[08-Jul-2026 17:10:16 UTC] PHP Notice:  Function WP_Scripts::add was called <strong>incorrectly</strong>. The script with the handle "elementor-ai-media-library" was enqueued with dependencies that are not registered: elementor-v2-ui, elementor-v2-icons. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.9.1.) in /var/www/html/wordpress/wp-includes/functions.php on line 6170
+[08-Jul-2026 17:13:49 UTC] WordPress database error Table 'wordpress_db.wp_ngg_gallery' doesn't exist for query SHOW COLUMNS FROM `wp_ngg_gallery` made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/nextgen-gallery/nggallery.php'), C_NextGEN_Bootstrap->__construct, Imagely\NGG\Migrations\AddGalleryDates::migrate
+[08-Jul-2026 17:13:49 UTC] WordPress database error Table 'wordpress_db.wp_ngg_gallery' doesn't exist for query ALTER TABLE `wp_ngg_gallery` ADD COLUMN `date_created` DATETIME made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/nextgen-gallery/nggallery.php'), C_NextGEN_Bootstrap->__construct, Imagely\NGG\Migrations\AddGalleryDates::migrate
+[08-Jul-2026 17:13:49 UTC] WordPress database error Table 'wordpress_db.wp_ngg_gallery' doesn't exist for query ALTER TABLE `wp_ngg_gallery` ADD COLUMN `date_modified` DATETIME made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/nextgen-gallery/nggallery.php'), C_NextGEN_Bootstrap->__construct, Imagely\NGG\Migrations\AddGalleryDates::migrate
+[08-Jul-2026 17:13:49 UTC] WordPress database error Table 'wordpress_db.wp_ngg_album' doesn't exist for query SHOW COLUMNS FROM `wp_ngg_album` made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/nextgen-gallery/nggallery.php'), C_NextGEN_Bootstrap->__construct, Imagely\NGG\Migrations\AddGalleryDates::migrate
+[08-Jul-2026 17:13:49 UTC] WordPress database error Table 'wordpress_db.wp_ngg_album' doesn't exist for query ALTER TABLE `wp_ngg_album` ADD COLUMN `date_created` DATETIME made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/nextgen-gallery/nggallery.php'), C_NextGEN_Bootstrap->__construct, Imagely\NGG\Migrations\AddGalleryDates::migrate
+[08-Jul-2026 17:13:49 UTC] WordPress database error Table 'wordpress_db.wp_ngg_album' doesn't exist for query ALTER TABLE `wp_ngg_album` ADD COLUMN `date_modified` DATETIME made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/nextgen-gallery/nggallery.php'), C_NextGEN_Bootstrap->__construct, Imagely\NGG\Migrations\AddGalleryDates::migrate
+[08-Jul-2026 17:13:49 UTC] WordPress database error Table 'wordpress_db.wp_ngg_gallery' doesn't exist for query UPDATE `wp_ngg_gallery` g INNER JOIN `wp_posts` p ON p.ID = g.extras_post_id SET g.date_created = CASE WHEN p.post_modified_gmt = "0000-00-00 00:00:00" THEN p.post_modified ELSE p.post_modified_gmt END, g.date_modified = CASE WHEN p.post_modified_gmt = "0000-00-00 00:00:00" THEN p.post_modified ELSE p.post_modified_gmt END made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/nextgen-gallery/nggallery.php'), C_NextGEN_Bootstrap->__construct, Imagely\NGG\Migrations\AddGalleryDates::migrate
+[08-Jul-2026 17:13:49 UTC] WordPress database error Table 'wordpress_db.wp_ngg_album' doesn't exist for query UPDATE `wp_ngg_album` a INNER JOIN `wp_posts` p ON p.ID = a.extras_post_id SET a.date_created = CASE WHEN p.post_modified_gmt = "0000-00-00 00:00:00" THEN p.post_modified ELSE p.post_modified_gmt END, a.date_modified = CASE WHEN p.post_modified_gmt = "0000-00-00 00:00:00" THEN p.post_modified ELSE p.post_modified_gmt END made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/nextgen-gallery/nggallery.php'), C_NextGEN_Bootstrap->__construct, Imagely\NGG\Migrations\AddGalleryDates::migrate
+[08-Jul-2026 17:13:54 UTC] PHP Notice:  Function WP_Scripts::add was called <strong>incorrectly</strong>. The script with the handle "elementor-ai-media-library" was enqueued with dependencies that are not registered: elementor-v2-ui, elementor-v2-icons. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.9.1.) in /var/www/html/wordpress/wp-includes/functions.php on line 6170
+[08-Jul-2026 17:52:03 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[08-Jul-2026 19:29:03 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[08-Jul-2026 22:04:50 UTC] Automatic updates starting...
+[08-Jul-2026 22:04:51 UTC]   Automatic plugin updates starting...
+[08-Jul-2026 22:04:51 UTC]   Automatic plugin updates complete.
+[08-Jul-2026 22:04:52 UTC]   Automatic theme updates starting...
+[08-Jul-2026 22:04:52 UTC]   Automatic theme updates complete.
+[08-Jul-2026 22:04:52 UTC] Automatic updates complete.
+[09-Jul-2026 06:38:47 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/functions.php on line 6170
+[09-Jul-2026 07:13:50 UTC] PHP Deprecated:  Function Automattic\WooCommerce\Admin\Features\ProductBlockEditor\BlockRegistry::register_block_type_from_metadata, which will be removed in WooCommerce 11.0 is <strong>deprecated</strong> since version 10.9.0 with no alternative available. in /var/www/html/wordpress/wp-includes/functions.php on line 6170
+[09-Jul-2026 07:13:50 UTC] PHP Deprecated:  Function Automattic\WooCommerce\Admin\Features\ProductBlockEditor\BlockRegistry::register_block_type_from_metadata, which will be removed in WooCommerce 11.0 is <strong>deprecated</strong> since version 10.9.0 with no alternative available. in /var/www/html/wordpress/wp-includes/functions.php on line 6170
+[09-Jul-2026 07:13:50 UTC] PHP Deprecated:  Function Automattic\WooCommerce\Admin\Features\ProductBlockEditor\BlockRegistry::register_block_type_from_metadata, which will be removed in WooCommerce 11.0 is <strong>deprecated</strong> since version 10.9.0 with no alternative available. in /var/www/html/wordpress/wp-includes/functions.php on line 6170
+[09-Jul-2026 07:13:50 UTC] PHP Deprecated:  Function Automattic\WooCommerce\Admin\Features\ProductBlockEditor\BlockRegistry::register_block_type_from_metadata, which will be removed in WooCommerce 11.0 is <strong>deprecated</strong> since version 10.9.0 with no alternative available. in /var/www/html/wordpress/wp-includes/functions.php on line 6170
+[09-Jul-2026 07:13:50 UTC] PHP Deprecated:  Function Automattic\WooCommerce\Admin\Features\ProductBlockEditor\BlockRegistry::register_block_type_from_metadata, which will be removed in WooCommerce 11.0 is <strong>deprecated</strong> since version 10.9.0 with no alternative available. in /var/www/html/wordpress/wp-includes/functions.php on line 6170

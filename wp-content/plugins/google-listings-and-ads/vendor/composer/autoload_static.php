@@ -705,6 +705,7 @@ class ComposerStaticInit0a5accc3a1824ef9938d59b6f22070fb
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsAwareInterface' => __DIR__ . '/../..' . '/src/Options/OptionsAwareInterface.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsAwareTrait' => __DIR__ . '/../..' . '/src/Options/OptionsAwareTrait.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsInterface' => __DIR__ . '/../..' . '/src/Options/OptionsInterface.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\ServiceBasedMerchantHooks' => __DIR__ . '/../..' . '/src/Options/ServiceBasedMerchantHooks.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\ServiceBasedMerchantState' => __DIR__ . '/../..' . '/src/Options/ServiceBasedMerchantState.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\Transients' => __DIR__ . '/../..' . '/src/Options/Transients.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\TransientsAwareInterface' => __DIR__ . '/../..' . '/src/Options/TransientsAwareInterface.php',
